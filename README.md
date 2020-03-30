@@ -16,4 +16,6 @@ The goals of this challenge are to:
 # Summary
 In this module, we built a table using data stored in a JavaScript array. We also created five filters to make this table fully dynamic, meaning that it reacts to user inputs including date, city, state, country, and shape. The filtered table was placed into an HTML file for easy viewing. We customized the webpage format using Bootstrap, and equipped the table with several fully functional filters that allows users to interact with our visualizations. 
 
-In future efforts, we may need to modify the code to be more flexible with the user inputs. For e.g., all combinations of day, month, and year that result in a unique date shall be accepted in the code, i.e. 01/01/2010, 01/1/2010, 1/1/2010, etc are all the same and shall be treated the same.
+# Recommendations for Further Development1. 
+1. We may modify the code to be more flexible with the user inputs. For e.g., all combinations of day, month, and year that result in a unique date shall be accepted in the code, i.e. 01/01/2010, 01/1/2010, 1/1/2010, etc are all the same and shall be treated the same.
+2. We may add auto-complete option for input boxes.
