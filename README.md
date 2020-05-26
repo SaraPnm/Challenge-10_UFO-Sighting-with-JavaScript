@@ -1,21 +1,28 @@
 # Challenge 11, UFO Sighting with JavaScript
 
 ## Project Overview
-We’ll build a table using data stored in a JavaScript array. We’ll also create filters to make this table fully dynamic, meaning that it will react to user input, and then place the table into an HTML file for easy viewing.
+We’ll explore and implement neural networks using the TensorFlow platform in Python. We’ll build our own machine learning model that will be able to predict the success of a venture paid by Alphabet soup.
 
 The goals of this challenge are to:
 
-1. Create, update, and deploy JavaScript functions to provide additional table filters.
-2. Update and deploy forEach (for loop) to loop through the filters and update them with user input.
-3. Update and populate the dynamic filters and table using JavaScript and HTML.
+1. Import, analyze, clean, and preprocess a “real-world” classification dataset.
+2. Select, design, and train a binary classification model of your choosing.
+3. Optimize model training and input data to achieve desired model performance.
 
 
 ## Resources
-- Software: VS Code (writing JavaScript)
+- Python 3.7
 
-# Summary
-In this module, we built a table using data stored in a JavaScript array. We also created five filters to make this table fully dynamic, meaning that it reacts to user inputs including date, city, state, country, and shape. The filtered table was placed into an HTML file for easy viewing. We customized the webpage format using Bootstrap, and equipped the table with several fully functional filters that allows users to interact with our visualizations. 
+# Discussion of results
+1. How many neurons and layers did you select for your neural network model? Why?
+I used 2 layers with 10 and 7 neurons. This was the efficient model to result in the requested accuracy.
 
-# Recommendations for Further Development1. 
-1. We may modify the code to be more flexible with the user inputs. For e.g., all combinations of day, month, and year that result in a unique date shall be accepted in the code, i.e. 01/01/2010, 01/1/2010, 1/1/2010, etc are all the same and shall be treated the same.
-2. We may add auto-complete option for input boxes.
+
+2. Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
+Yes. I took following steps to enhance the model performance:
+  - tried different number of layers and neurons in each layer. 
+  - changed the number of categories as well as bining method in CLASSIFICATION and APPLICATION_TYPE variables
+  - tested different activation functions
+
+3. If you were to implement a different model to solve this classification problem, which would you choose? Why?
+I could use both Random Forest and Logistic Regression, but since the accuracy is more important compared to interpretability in this specific problem, I prefer Random Forest.
